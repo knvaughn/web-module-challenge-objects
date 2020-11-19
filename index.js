@@ -117,7 +117,6 @@ Use the getReviewByIndex function below to do the following:
 
 
 function getReviewByIndex(arr, index) {
-  console.log('arr: ', arr, 'index: ', index);
   let name = arr[index].name;
   let rating = arr[index].rating;
   let feedback = arr[index].feedback;
